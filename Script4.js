@@ -15,3 +15,13 @@ while (i <= 10) {
   console.log("Holambe", i * 2);
   i++;
 }
+
+//Q calculate sum of first five numbers; ans - 0 + 1+2+3+4 =10
+let sum = 0;
+console.log(typeof sum);
+for (let i = 1; i <= 100; i++) {
+  sum = sum + i;
+}
+console.log(sum);
+
+// Infinite loop  which have stoping condition always true.
