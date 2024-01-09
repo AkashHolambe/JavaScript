@@ -1,14 +1,14 @@
 // // Loops in js "Loop is used to execute something repeat and reapeat"
 
-// for (let i = 1; i < 5; i++) {
-//   console.log("Akash Holambe", i);
-// }
+for (let i = 1; i < 5; i++) {
+  console.log("Akash Holambe", i);
+}
 
-// i = 1;
-// do {
-//   console.log("Sagar Holambe", i);
-//   i++;
-// } while (i <= 10);
+i = 1;
+do {
+  console.log("Sagar Holambe", i);
+  i++;
+} while (i <= 10);
 
 i = 1;
 while (i <= 10) {
@@ -25,3 +25,18 @@ for (let i = 1; i <= 100; i++) {
 console.log(sum);
 
 // Infinite loop  which have stoping condition always true.
+
+let str = "Kshitij";
+for (const i of str) {
+  console.log("i =", i);
+}
+
+let Akash = {
+  Name: "Akash Radhakishan Holambe",
+  age: 24,
+  Address: "KeshavNarage mundwa kharadi",
+  Mobile: 9325624735,
+};
+for (const i in Akash) {
+  console.log(i, "Value =", Akash[i]);
+}
