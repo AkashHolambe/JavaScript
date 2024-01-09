@@ -35,3 +35,15 @@ console.log(number);
 
 let Avg = sum / number;
 console.log(Avg);
+
+// pratice question 2
+
+let Array2 = [250, 645, 300, 900, 50];
+let sum2 = 0;
+for (let i = 0; i < Array.length; i++) {
+  sum2 = Array[i] + sum;
+}
+console.log(sum2);
+
+let discout_total_amount = sum2 - 0.1 * sum2;
+console.log(discout_total_amount);
