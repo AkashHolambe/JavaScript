@@ -71,3 +71,9 @@ let countvol = (str2) => {
 
 countvol(str); // Pass the 'str' variable to the function
 console.log(num);
+
+// forEach loop in js
+let array = ["pune", "mumbai", "delhi", "surat"];
+array.forEach((val) => {
+  console.log(val);
+});
