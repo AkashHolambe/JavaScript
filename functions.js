@@ -33,7 +33,7 @@ console.log(mul(3, 4));
 
 // pratice question , take string as input as return count of ovewls.
 
-let str = prompt("Enter your Name");
+let str = "Holambe";
 let count = 0;
 
 function countvowels() {
@@ -77,3 +77,19 @@ let array = ["pune", "mumbai", "delhi", "surat"];
 array.forEach((val) => {
   console.log(val);
 });
+
+// higher order functions are those who use other function as parameter. or they return other function.
+let number = [1, 3, 6, 3, 9];
+
+// Using forEach to log the square of each element
+number.forEach((element) => {
+  console.log(element * element);
+});
+
+// Using map to create a new array with squared values
+let newarr = number.map((val) => {
+  return val * val; // The transformation function (squaring each element)
+});
+
+console.log(newarr);
+
