@@ -1,0 +1,35 @@
+/* Reset some default button styles */
+body{
+    background-color:lightgray;
+}
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Style for the beast button */
+  .beast-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background color */
+    color: green; /* White text color */
+    border: 2px solid #0f9f16; /* Darker green border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .beast-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: purple; /* White text color on hover */
+  }
+  
