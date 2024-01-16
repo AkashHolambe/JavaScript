@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simple use</title>
   </head>
   <body>
-    <h1 class="fruits">Fruits</h1>
-    <ul>
-      <li>Mango</li>
-      <li>Apple</li>
-      <li>grapes</li>
-    </ul>
+    <h1>Lets guess about Akash</h1>
+    <h2>if you answer correct akash will give you complement</h2>
+    <button id="click" onclick="myfun();">Bad boy</button>
+    <button id="click2" onclick="myfun2();">Good boy</button>
   </body>
+  <script>
+    function myfun() {
+      document.getElementById("click").innerHTML = "You are a nalayk person";
+    }
+
+    function myfun2() {
+      document.getElementById("click2").innerHTML = "You are a lovely person";
+    }
+  </script>
 </html>
