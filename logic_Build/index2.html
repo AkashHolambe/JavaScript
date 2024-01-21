@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy to Clipboard</title>
+</head>
+<body>
+
+    <button id="copyButton">Copy Text</button>
+
+    <script>
+        document.getElementById('copyButton').addEventListener('click', function() {
+            // Get the text you want to copy
+            var textToCopy = 'Hello, Clipboard!';
+
+            // Create a temporary input element
+            var inputElement = document.createElement('input');
+            
+            // Set its value to the text you want to copy
+            inputElement.value = textToCopy;
+            
+            // Append it to the document
+            document.body.appendChild(inputElement);
+            
+            // Select the text in the input element
+            inputElement.select();
+            
+            // Copy the selected text to the clipboard
+            document.execCommand('copy');
+            
+            // Remove the temporary input element
+            document.body.removeChild(inputElement);
+
+            alert('Text copied to clipboard: ' + textToCopy);
+        });
+    </script>
+
+</body>
+</html>
+
+
