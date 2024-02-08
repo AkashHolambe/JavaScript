@@ -9,6 +9,16 @@
     <script>
       const letters = new Set(["a", "b", "c"]);
       console.log(letters);
+
+      // Iterables in js
+
+      const person = { fname: "John", lname: "Doe", age: 25 };
+
+      let text = "";
+      for (let x in person) {
+        text += person[x];
+        
+      }
     </script>
   </body>
 </html>
