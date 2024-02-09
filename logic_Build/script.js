@@ -1,17 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const rectangle = document.getElementById("rectangle");
-  const maxX = window.innerWidth - rectangle.clientWidth;
+const a = +prompt("Enter value of a");
+const b = +prompt("Enter value of b");
 
-  rectangle.addEventListener("mouseover", function () {
-    moveRectangle();
-  });
+Akash(a, b);
 
-  function moveRectangle() {
-    // Determine whether to move to the left or right side
-    const moveToLeft = rectangle.offsetLeft < window.innerWidth / 2;
-    const newX = moveToLeft ? maxX : 300;
+function Akash(a, b) {
+  let sum = a + b;
+  console.log(sum);
+}
 
-    // Move the rectangle to the new position
-    rectangle.style.left = newX + "px";
-  }
-});
+let sagar = {
+  Full_Name: "Sagar Radhakishan Holambe",
+  Age: 18,
+  Address: "Belamba Parli Vaijenath",
+  Mobile: 87832023492,
+};
+console.log(sagar);
+
+
+
+for (let i = 0; i < sagar.Full_Name.length; i++) {
+    console.log(i);
+    
+}
